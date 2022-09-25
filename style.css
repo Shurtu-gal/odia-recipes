@@ -1,0 +1,55 @@
+*{
+    background-color: bisque;
+}
+
+h1{
+    text-align : center;
+    text-decoration: underline;
+}
+
+div,
+.div2{
+    max-width : 100%;
+    height : auto;
+    text-align: center;
+    align-content: center;
+    padding: 15px;
+}
+
+.div2{
+    max-width : 600px;
+    width : 90% ;
+    margin: auto;
+    border: 3px solid red;
+}
+
+img{
+    width: 100%;
+    height : auto;
+}
+
+.intro{
+    font-size: large;
+}
+
+a:link{
+    color : darkblue;
+    text-decoration: none;
+    font-weight : bold;
+}
+
+a:visited{
+    color : red;
+    text-decoration: none;
+    font-weight : bold;
+}
+
+a:hover{
+    color : green;
+    font-size: 120%;
+    text-decoration: underline;
+}
+
+a:active{
+    color : violet;
+}

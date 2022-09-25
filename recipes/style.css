@@ -1,0 +1,65 @@
+*{
+    background-color: aliceblue;
+}
+
+h1{
+    color : rgb(61, 16, 240);
+    text-align : center;
+    text-decoration: underline;
+}
+
+h3{
+    font-size : 23px;
+    text-decoration: underline;
+}
+
+.intro{
+    font-size : 22px;
+}
+
+div,
+.div2{
+    max-width : 100%;
+    height : auto;
+    text-align: center;
+    align-content: center;
+    padding: 15px;
+}
+
+.div2{
+    max-width : 600px;
+    width : 90% ;
+    margin: auto;
+    border: 3px solid black;
+}
+
+.head{
+    font-size : 22px;
+}
+
+img{
+    width: 100%;
+    height : auto;
+}
+
+a:link{
+    color : darkblue;
+    text-decoration: none;
+    font-weight : bold;
+}
+
+a:visited{
+    color : red;
+    text-decoration: none;
+    font-weight : bold;
+}
+
+a:hover{
+    color : green;
+    font-size: 120%;
+    text-decoration: underline;
+}
+
+a:active{
+    color : violet;
+}
