@@ -1,5 +1,10 @@
-*{
+/* Changed * to body as bg-color is inherited and * may override somethings 
+as they are being applied to elements itself and not inherited.
+Also lookup html vs body (should apply in body itself). */
+
+body{
     background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
